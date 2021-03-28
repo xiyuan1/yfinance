@@ -1,21 +1,21 @@
 |                                 |                  GENERAL INFORMATION                                                                           |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Test Stage:                     | ☐ Unit ☐ Functionality ☐ Performance ☐ Regression ☐ Integration ☐ Acceptance ☐ System ☐ Pilot ☐ Interface |
-| Test Date:                      | 03/26/2021                                                                                                     |
+| Test Stage:                     | ☐ Unit ⬛️Functionality ☐ Performance ☐ Regression ☐ Integration ☐ Acceptance ☐ System ☐ Pilot ☐ Interface |
+| Test Date:                      | 03/27/2021                                                                                                     |
 | System Date, if applicable:     | N/A                                                                                                            |
-| Tester:                         | Specify the name(s) of who is testing this case scenario.                                                      |
-| Test Case Number:               | 2                                                                                                              |
-| Test Case Description:          | This test checks if the code handles when the variable ‘cal’ gets a pandas DataFrame that contains only NaNs.  |
-| Results:                        | ☐ Pass ☐ Fail                                                                                                 |
-| Incident Number, if applicable: | Specify the unique identifier assigned to the incident.                                                        |
+| Tester:                         | Wilson Quon                                                                                                    |
+| Test Case Number:               | 4                                                                                                              |
+| Test Case Description:          | check if self.calendar.index is being set properly by camel2title().                                           |
+| Results:                        | ☐ Pass ⬛️Fail                                                                                                 |
+| Incident Number, if applicable: | NA                                                                                                             |
 
 
 |                              |                     INTRODUCTION                                                                                                                                      |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Requirement(s) to be tested: | Identify the requirements to be tested and include the requirement number and description from the Requirements Traceability Matrix.                                  |
-| Roles and Responsibilities:  | Describe each project team member and stakeholder involved in the test, and identify their associated responsibility for ensuring the test is executed appropriately. |
-| Set Up Procedures:           | Describe the sequence of actions necessary to prepare for execution of the test.                                                                                      |
-| Stop Procedures:             | Describe the sequence of actions necessary to terminate the test.                                                                                                     |
+| Requirement(s) to be tested: | Check if the index was being set. 
+| Roles and Responsibilities:  | Wilson was to make tests and run them.                                                                       |
+| Set Up Procedures:           |                                                                                                               |
+| Stop Procedures:             | exit()                                                                                                         |
 
 
 |                          |                     ENVIRONMENTAL NEEDS                                                                                                  |
@@ -27,15 +27,15 @@
 
 |                           |                     TEST                                                                                                                                                                                                      |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Test Items and Features:  | Identify and describe the items and features that will be exercised by the test case.                                                                                                                                         |
-| Input Specifications:     | Define each input required to execute the test case, and reference any required relationships between inputs.                                                                                                                 |
-| Procedural Steps:         | Describe the sequences of actions necessary to prepare and execute the test case.                                                                                                                                             |
-| Expected Results of Case: | Describe the outcome anticipated from the test case.                                                                                                                                                                          |
+| Test Items and Features:  | Test camel2title with a dummy list.                                                                                                                                      |
+| Input Specifications:     | 'Earning, Revenue, Avg' 
+| Procedural Steps:         |                                                                                                                                           |
+| Expected Results of Case: | Index is set to the right amount by camel2title.                                                                                                                                                                           |
 
 
 |                        |                     ACTUAL RESULTS                                                                                                |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Output Specifications: | Define all of the outputs and features required of the test case and provide expected values.                                     |
+| Output Specifications: | Code not finished, initial tests failed with AttributeErrors.                                                                     |
 
 
 
