@@ -12,7 +12,7 @@
 
 |                              |                     INTRODUCTION                                                                                                                                      |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Requirement(s) to be tested: | The earnings date of the calendar must be converted properly                                  |
+| Requirement(s) to be tested: | The earnings date of the calendar must be converted properly by the pandas to_datetime function.                                 |
 | Roles and Responsibilities:  | khang |
 | Set Up Procedures:           | create a mock dataframe                                                                                    |
 | Stop Procedures:             | none                                                                                                    |
@@ -27,7 +27,7 @@
 
 |                           |                     TEST                                                                                                                                                                                                      |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Test Items and Features:  | checks if date is properly converted                                                                                                                                       |
+| Test Items and Features:  | checks if date from data frame is converted to a different format    |
 | Input Specifications:     | data for the dataframe                                                                                                                 |
 | Procedural Steps:         | none                                                                                                                                            |
 | Expected Results of Case: | pass                                                                                                                                                                          |
