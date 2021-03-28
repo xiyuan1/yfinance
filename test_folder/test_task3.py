@@ -20,7 +20,7 @@ class TestEvent1(unittest.TestCase):
                 'revenueHigh': 41894000000}
         
         calendar = self.msft.fill_calendar(data)
-        self.assertNotEqual(calendar['earningsDate'], [1619481600, 1620000000])
+        self.assertNotEqual(calendar['earningsDate'], pd.to_datetime([1619481600, 1620000000], unit='s'))
 
 if __name__ == '__main__':
     unittest.main()
